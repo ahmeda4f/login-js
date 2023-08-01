@@ -1,0 +1,27 @@
+/* body{
+    background-color:hsl(54, 39%, 85%) !important;
+
+} */
+
+.sa{
+    background-color: rgb(49, 59, 68) !important;
+}
+
+.sas{
+    background-color: rgb(49, 59, 68) !important;
+}
+::placeholder {
+    color: grey !important;
+    opacity: 1;
+  }
+  .heading{
+    font-weight:300;
+    color:turquoise !important;
+  }
+  .form-control:focus {
+    border-color: turquoise !important;
+    box-shadow: 0 0 0 0.2rem rgba(47, 177, 182, 0.25) !important;
+} 
+input{
+    color: white !important;
+}

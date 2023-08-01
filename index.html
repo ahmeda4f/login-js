@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon"  href="favicon/icons8-login-64.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+    <body class="bg-dark">
+        <div class="container  w-50 sa  shadow-lg mx-auto my-5 text-center " id="login">
+        <h2 class=" py-2 fs-1 heading"> Smart Login System    </h2>
+        <div class="mb-4 pb-4 w-75  mx-auto">
+    
+    
+           
+        <div class="mb-1">
+            <label for="loginEmail" class="form-label"></label>
+            <input type="email" class="form-control sas " id="loginEmail" placeholder="Enter your email">
+    
+         
+          </div>
+          <div class=" mb-1">
+            <label for="loginPassword" class="form-label"></label>
+            <input type="password" class="form-control sas " id="loginPassword" placeholder="Enter your password">
+         
+    
+    
+    </div>    
+    <!-- <button class="btn btn-lg my-4 btn-outline-info w-100"> <a href="file/signup.html"></a><span class="fw-lighter">Login</span></button> -->
+    <a href="#" class="btn btn-lg my-4 btn-outline-info w-100 fw-lighter" id="loginBtn" onclick="userLogin()">Login</a>
+    <div class="small text-white">
+        Don't have an account? 
+        <a href="javascript:void(0)" class="text-decoration-none text-white" id="register" onclick="registerUser()"> Sign Up</a>
+    </div>
+    
+            </div>
+    </div>
+    
+    <div class=" container bg-dark d-none" id="signup">
+        <div class="container  w-50 sa  shadow-lg mx-auto my-5 text-center " id="login">
+        <h2 class=" py-2 fs-1 heading"> Smart Login System    </h2>
+        <div class="mb-4 pb-4 w-75  mx-auto">
+    
+    
+            <div class="mb-1">
+                <label for="signName" class="form-label"></label>
+                <input type="text" class="form-control sas " id="signName" placeholder="Enter your name">
+        
+        <div class="mb-1">
+            <label for="signEmail" class="form-label"></label>
+            <input type="email" class="form-control sas " id="signEmail" placeholder="Enter your email">
+    
+         
+          </div>
+          <div class=" mb-1">
+            <label for="signPassword" class="form-label"></label>
+            <input type="password" class="form-control sas " id="signPassword" placeholder="Enter your password">
+         
+    
+    
+    </div>    
+    <button class="btn btn-lg my-4 btn-outline-info w-100" onclick="addUser()" ><span class="fw-lighter">Sign Up</span></button>
+    <div class="small text-white">You have an account? <a href="" class="text-decoration-none text-white"> Login</a></div>
+    
+        </div>
+    </div>
+        </div>
+        </div>
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>
